@@ -27,6 +27,7 @@ import dev1503.circlor4j.client.module.modules.NoHurtCamModule;
 import dev1503.circlor4j.client.module.modules.FreecamModule;
 import dev1503.circlor4j.client.module.modules.FreelookModule;
 import dev1503.circlor4j.client.module.modules.HitboxModule;
+import dev1503.circlor4j.client.module.modules.AntiPacketKickModule;
 import dev1503.circlor4j.client.module.modules.HighJumpModule;
 import dev1503.circlor4j.client.module.modules.InventoryMoveModule;
 import dev1503.circlor4j.client.module.modules.ItemTagModule;
@@ -93,6 +94,7 @@ public final class Circlor4jClient {
 		ModuleManager.register(new AntiDebuffModule(status));
 		ModuleManager.register(new AimBotModule(status));
 		ModuleManager.register(new AntiKnockbackModule(status));
+		ModuleManager.register(new AntiPacketKickModule(status));
 		ModuleManager.register(new AutoClickerModule(status));
 		ModuleManager.register(new AutoTotemModule(status));
 		ModuleManager.register(new AutoSprintModule(status));
